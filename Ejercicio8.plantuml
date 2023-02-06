@@ -5,9 +5,10 @@ class "Actuacion" as Actuacion{
     Tipo: "1 enum Tipo de Actuación"
 }
 
-Tipo de Actuación:
-Sondeo
-Excavación
-Seguimiento
+enum "Tipo de Actuación" as TipoActuacion{
+    Sondeo
+    Excavación
+    Seguimiento
+}
 
 @enduml

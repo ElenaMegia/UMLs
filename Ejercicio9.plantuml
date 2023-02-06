@@ -9,29 +9,35 @@ class "Cuadro" as Cuadro {
     Estado de conservación: "1 enum Estado de Conservación"
 }
 
-Técnica:
-Acuarela
-Óleo
-Pastel
-Fresco
+enum Técnica{
+    Acuarela
+    Óleo
+    Pastel
+    Fresco
+}
 
-Sub-Técnica:
+enum Sub-Técnica:{
 Sfumato
 Pincelada simple
 Collage
 Veladura
+}
 
-Material:
-Madera
-Álamo
-Nogal
-Lienzo
-Obra
+enum Material{
+    Madera
+    Álamo
+    Nogal
+    Lienzo
+    Obra
+}
 
-Estado de Conservación:
-Excelente
-Bueno
-Regular
-Malo
-Destruido
+
+enum "Estado de Conservación" as estaddeConservacion{
+    Excelente
+    Bueno
+    Regular
+    Malo
+    Destruido
+}
+
 @enduml

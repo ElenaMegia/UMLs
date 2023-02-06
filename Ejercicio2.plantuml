@@ -27,7 +27,7 @@ object "Carlos: Persona" as carlos{
 
 kate -- guillermo:  < Está Casado Con
 diana -- guillermo:  < es hijo de
-carlos -- diana:  < Está Casado Con
+carlos -- diana:  > Está Casado Con
 carlos -- guillermo:  < es hijo de
 @enduml
 

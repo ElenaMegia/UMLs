@@ -1,0 +1,22 @@
+@startuml
+class Proyecto {
+    Nombre: "1 Texto"
+    Fecha de inicio: 1 Tiempo
+    Fecha de fin: 0..1 Tiempo
+}
+class "Miembro del equipo" as Persona{
+   Nombre: 1 Texto
+   Apellidos: 1 Texto
+   Rol: 0..* Texto
+
+}
+class "Lugar de Actuacion" as Lugar{
+    Nombre: 0..* Texto
+    Coordenada X: 1 Número
+    Coordenada Y: 1 Número
+
+}
+
+Persona "1..*".. "0..*" Proyecto : Participa en
+Proyecto "0..*" .. "0..*" Lugar : Tiene lugar en
+@enduml

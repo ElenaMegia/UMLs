@@ -1,20 +1,20 @@
 @startuml
-object "Circulo: c1" as Circulo{
+object "Circulo: c1" as c1{
 
     Color = "Negro"
     Diametro = 1
 }
-object "Rectangulo: r1 " as Rectangulo{
+object "Rectangulo: r1 " as r1{
     Longitud = 3
     Anchura = 1
     Color = "Naranja"
 }
-object "Cuadrado: c2" as Cuadrado{
+object "Cuadrado: c2" as c2{
 
     Longitud = 1.5
     Color = "Azul"
 }
-object "Elipse: e1" as Elipse{
+object "Elipse: e1" as e1{
     Color = "Amarillo"
     Eje Mayor = 3
     Eje Menor = 1

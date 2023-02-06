@@ -5,20 +5,20 @@ object Rectangulo
 object Cuadrado
 object Elipse
 
-Circulo : Color = 1 Texto
-Circulo : Diámetro = 1 Número
+Circulo : Color : 1 Texto
+Circulo : Diámetro : 1 Número
 
 
-Rectangulo : Longitud = 1 Número
-Rectangulo : Anchura = 1 Número
-Rectangulo : Color = 1 Texto
+Rectangulo : Longitud : 1 Número
+Rectangulo : Anchura : 1 Número
+Rectangulo : Color : 1 Texto
 
-Cuadrado : Longitud = 1 Número
-Cuadrado : Color = 1 Texto
+Cuadrado : Longitud : 1 Número
+Cuadrado : Color : 1 Texto
 
-Elipse : Color = 1 Texto
-Elipse : Eje mayor = 1 Número
-Elipse : Eje menor = 1 Número
+Elipse : Color : 1 Texto
+Elipse : Eje mayor : 1 Número
+Elipse : Eje menor : 1 Número
 
 
 @enduml

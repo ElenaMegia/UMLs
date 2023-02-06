@@ -4,7 +4,7 @@ object "Catedral De Santiago: Edificio" as CatedralDeSantiago{
 
     Nombre = “Catedral de Santiago de Compostela”
     Culto = "Católico"
-    Lugar = “Santiago de Compostela, G alicia, España"
+    Lugar = “Santiago de Compostela, Galicia, España"
     Fecha inicio construcción = "1075"
     Fecha fin construcción = "112 2"
     Fecha primera consagración = "1128"
@@ -12,7 +12,7 @@ object "Catedral De Santiago: Edificio" as CatedralDeSantiago{
     Fecha segunda consagración = "3 de abril de 121 1"
     Fecha declaración BIC = "1896"
     Material = "Granito"
-    Estilo = "Románico, Gótico, Bar roco, Platere sco, Neoclásico"
+    Estilo = "Románico, Gótico, Barroco, Plateresco, Neoclásico"
 
 }
 
