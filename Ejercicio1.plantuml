@@ -1,0 +1,27 @@
+@startuml
+object "Circulo: c1" as Circulo{
+
+    Color = "Negro"
+    Diametro = 1
+}
+object "Rectangulo: r1 " as Rectangulo{
+    Longitud = 3
+    Anchura = 1
+    Color = "Naranja"
+}
+object "Cuadrado: c2" as Cuadrado{
+
+    Longitud = 1.5
+    Color = "Azul"
+}
+object "Elipse: e1" as Elipse{
+    Color = "Amarillo"
+    Eje Mayor = 3
+    Eje Menor = 1
+
+}
+
+
+
+
+@enduml

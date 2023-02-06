@@ -1,0 +1,37 @@
+@startuml
+class "Cuadro" as Cuadro {
+    Título: "0..* Texto"
+    Cronología: "1 Tiempo"
+    Técnica: "1 enum Técnica"
+    Sub-técnica: "1 enum Sub-Técnica"
+    Material del soporte: "1 enum Material"
+    Autor: "1 Texto"
+    Estado de conservación: "1 enum Estado de Conservación"
+}
+
+Técnica:
+Acuarela
+Óleo
+Pastel
+Fresco
+
+Sub-Técnica:
+Sfumato
+Pincelada simple
+Collage
+Veladura
+
+Material:
+Madera
+Álamo
+Nogal
+Lienzo
+Obra
+
+Estado de Conservación:
+Excelente
+Bueno
+Regular
+Malo
+Destruido
+@enduml
