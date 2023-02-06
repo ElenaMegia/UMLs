@@ -1,0 +1,24 @@
+@startuml
+
+object Circulo
+object Rectangulo
+object Cuadrado
+object Elipse
+
+Circulo : Color = 1 Texto
+Circulo : Diámetro = 1 Número
+
+
+Rectangulo : Longitud = 1 Número
+Rectangulo : Anchura = 1 Número
+Rectangulo : Color = 1 Texto
+
+Cuadrado : Longitud = 1 Número
+Cuadrado : Color = 1 Texto
+
+Elipse : Color = "Amarillo"
+Elipse : Eje mayor = 3
+Elipse : Eje menor = 1
+
+
+@enduml
