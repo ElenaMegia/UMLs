@@ -16,9 +16,9 @@ Rectangulo : Color = 1 Texto
 Cuadrado : Longitud = 1 Número
 Cuadrado : Color = 1 Texto
 
-Elipse : Color = "Amarillo"
-Elipse : Eje mayor = 3
-Elipse : Eje menor = 1
+Elipse : Color = 1 Texto
+Elipse : Eje mayor = 1 Número
+Elipse : Eje menor = 1 Número
 
 
 @enduml
