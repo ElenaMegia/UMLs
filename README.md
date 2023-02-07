@@ -5,6 +5,8 @@ https://github.com/ElenaMegia/UMLs.git
 
 
 **__Ejercicio 1__**
+
+
 ![img_2.png](img_2.png)
 
 
@@ -13,7 +15,7 @@ https://github.com/ElenaMegia/UMLs.git
 
 
 **__Ejercicio 3__** 
-![img_1.png](img_1.png)
+![img_7.png](img_7.png)
 
 
 **__Ejercicio 4__** 
@@ -33,13 +35,15 @@ https://github.com/ElenaMegia/UMLs.git
 
 
 **__Ejercicio 8__**
+![img_8.png](img_8.png)
 
 
 **__Ejercicio 9__**
-
+![img_9.png](img_9.png)
 
 **__Ejercicio 10__**
-
+![img_10.png](img_10.png)
 
 **__Ejercicio 11__**
+![img_11.png](img_11.png)
 
