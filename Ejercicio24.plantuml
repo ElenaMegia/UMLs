@@ -1,0 +1,26 @@
+@startuml
+
+class "Edificio" as edificio {
+}
+
+class "Uso de edificio" as usoedificio {
+Fecha de inicio: 1 Tiempo
+Fecha de fin: 0..1 Tiempo
+}
+
+class "Hospital" as hosp {
+}
+
+class "Escuela" as escuela {
+}
+
+class "Vivienda" as vivienda {
+}
+
+edificio o-- usoedificio
+usoedificio <|-- (hosp, escuela, vivienda)
+
+
+edificio "1" o-- "0..*" usoedificio
+
+@enduml
