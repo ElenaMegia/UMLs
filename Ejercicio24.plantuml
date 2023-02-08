@@ -17,7 +17,7 @@ class "Escuela" as escuela {
 class "Vivienda" as vivienda {
 }
 
-usoedificio <|-- (hosp, escuela, vivienda)
+usoedificio <|-- (hosp, escuela)
 edificio o-- usoedificio
 
 
