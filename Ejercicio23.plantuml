@@ -1,0 +1,15 @@
+@startuml
+
+class "Contrucción(A)" as A {
+}
+
+class "Edificio" as edificio {
+}
+
+class "Conjunto Construido" as conjunto {
+}
+
+A <|-- (edificio, conjunto)
+A "0..*" o-- "0..1" conjunto
+
+@enduml
