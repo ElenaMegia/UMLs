@@ -50,3 +50,9 @@ https://github.com/ElenaMegia/UMLs.git
 **__Ejercicio 18__**
 ![img_12.png](img_12.png)
 
+**__Ejercicio 23__**
+![img_13.png](img_13.png)
+
+**__Ejercicio 24__**
+![img_14.png](img_14.png)
+
