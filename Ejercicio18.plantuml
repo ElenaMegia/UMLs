@@ -1,0 +1,36 @@
+@startuml
+
+class "Forma (A)" as a{
+Color: 1 Texto
+}
+
+class "Cuadrilátero" as cuadri{
+Longitud: 1 Número
+}
+
+class "Cónica" as co{
+
+}
+class "Rectangulo" as rec{
+Anchura: 1 Número
+
+}
+
+class "Cuadrado" as cua{
+
+}
+
+class "Circulo" as cir{
+Diámetro: 1 Número
+}
+
+class "Elipse" as elip{
+Eje Mayor: 1 Número
+Eje Menor: 1 Número
+}
+
+cuadri <|-- (rec,cua)
+co <|-- (cir,elip)
+
+a <|-- (cuadri, co)
+@enduml
