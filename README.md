@@ -47,3 +47,6 @@ https://github.com/ElenaMegia/UMLs.git
 **__Ejercicio 11__**
 ![img_11.png](img_11.png)
 
+**__Ejercicio 18__**
+![img_12.png](img_12.png)
+
