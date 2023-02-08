@@ -21,6 +21,7 @@ edificio o-- usoedificio
 usoedificio <|-- (hosp, escuela, vivienda)
 
 
+
 edificio "1" o-- "0..*" usoedificio
 
 @enduml
